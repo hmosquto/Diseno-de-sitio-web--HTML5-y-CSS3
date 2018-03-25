@@ -11,6 +11,7 @@ header{
 	margin:20px auto;
 	width:1000px;
 	height:120px;
+
 	}
 nav{
 	position:relative;
@@ -103,7 +104,4 @@ a .botones:active{
 	margin:20px auto;
 	width:1000px;
 	height:192px;
-	background: red;
-	background: url(images/uno.PNG);
-	background: red;
 	}
