@@ -4,14 +4,16 @@
 	padding:0;
 	list-style:none;
 	font-family:sans-serif;
+
 	}
 
 header{
 	position:relative;
+	border-radius: 1em;
 	margin:20px auto;
 	width:1000px;
 	height:120px;
-
+	
 	}
 nav{
 	position:relative;
@@ -19,43 +21,65 @@ nav{
 	width:1000px;
 	height:48px;
 	}
-
 section{
 	position:relative;
 	margin:auto;
 	width:1000px;
-	height:800px;
+	height:850px;
 	}
 article{
 	width: 670px;
 	height: 100%;
 	float: left;
 	}
-
 aside{
 	width: 33%;
 	height: 100%;
-	background:#E8E8E8;
+	background:#FFFFFF;
 	float: left;
 }
 article h1{
-	font-family: 'Kaushan Script', cursive;
-	font-size:40px;
+	font-style: italic;
+	font-family: verdana,cursive;
+	font-size:30px;
 	margin:20px;
 	}
-
-article p img{
+article p video{
 	float:left;
 	margin-right:20px;
 	}
-	
 article p {
-	margin:5px 20px;
+	text-align: justify;
+	margin:5px 20px 30px;
+	font-size:14px;
+	font-family: 'Kaushan Script', cursive;
+	}
+article h2 {
+	font-style: italic;
+	font-family: verdana,cursive;
+	font-size:30px;
+	margin:20px;
+    margin-bottom: 20px;
+}
+aside h1{
+	font-style: italic;
+	font-family: verdana,cursive;
+	font-size:30px;
+	margin:20px;
+	}
+aside h3 {
+	font-style: italic;
+	margin:5px 20px 20px;
 	font-size:14px;
 	text-align:justify;
 	font-family: 'Kaushan Script', cursive;
 	}
-
+aside p {
+	margin:5px 30px 30px;
+	font-size:14px;
+	text-align:justify;
+	font-family: 'Kaushan Script', cursive;
+	}
 footer{
 	position:relative;
 	margin:100px auto;
@@ -66,19 +90,25 @@ footer{
 	line-height:70px;
 	color:white;
 	}
-#logo{
+header h1{
 	position:absolute;
-	top:30px;
-	left:30px;
-	width:200px;
-	height:60px;
-	font-family: verdana;
-	font-size:.8em;
-	font-size:50px;
+	top:-10px;
+	left:400px;
+	font-style: italic;
+	font-family: verdana,cursive;
+	font-size:.30em;
+	font-size:35px;
 	text-align:center;
-	line-height:60px;
-	}
+	line-height:50px;
 
+	}
+header img{
+	position:absolute;
+    top: 1px;
+    left: 30px;
+    width: 140px;
+    height: 120px;
+	}
 .botones{
 	float:left;
 	width:196px;
@@ -90,7 +120,6 @@ footer{
 	text-align:center;
 	line-height:48px;
 	}
-	
 a .botones:hover{
 	background:rgba(100,0,255,.4);
 	}
@@ -99,9 +128,3 @@ a .botones:active{
 	background:rgba(255,0,100,1);
 	}	
 
-#top{
-	position:relative;
-	margin:20px auto;
-	width:1000px;
-	height:192px;
-	}
